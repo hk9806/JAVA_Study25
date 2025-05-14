@@ -14,45 +14,45 @@ public class VarExam {
 		
 		int x1;
 		x1 = 10;
-		char z1='b'; //¹®ÀÚ·Î Ä¡È¯
+		char z1='b'; //ï¿½ï¿½ï¿½Ú·ï¿½ Ä¡È¯
 		
 		System.out.println(x1);
 		System.out.println(z1);
 		
-		int kor, mat, eng, total; //int Á¤¼ö
-		double avg; //double ½Ç¼ö
+		int kor, mat, eng, total; //int ï¿½ï¿½ï¿½ï¿½
+		double avg; //double ï¿½Ç¼ï¿½
 		kor = 90;
 		eng = 87;
 		mat = 91;
 		total = kor+eng+mat;
 		avg = total/3;
 		
-		System.out.print("±¹¾î"+kor);
-		System.out.print(" ¼öÇÐ"+mat);
-		System.out.print(" ¿µ¾î"+eng);
-		System.out.print(" ÃÑÁ¡"+total);
-		System.out.println(" Æò±Õ"+avg); 
-		//print¸¸ ÀÔ·Â½Ã °°ÀºÇà¿¡¼­ Ãâ·Â printlnÀÔ·Â½Ã Çà ³ª´©¾î Ãâ·Â
+		System.out.print("ï¿½ï¿½ï¿½ï¿½"+kor);
+		System.out.print(" ï¿½ï¿½ï¿½ï¿½"+mat);
+		System.out.print(" ï¿½ï¿½ï¿½ï¿½"+eng);
+		System.out.print(" ï¿½ï¿½ï¿½ï¿½"+total);
+		System.out.println(" ï¿½ï¿½ï¿½"+avg); 
+		//printï¿½ï¿½ ï¿½Ô·Â½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½à¿¡ï¿½ï¿½ ï¿½ï¿½ï¿½ printlnï¿½Ô·Â½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½
 		
-		char firstname = 'ÀÚ';
-		char firstName = '¹Ù';
+		char firstname = 'a';
+		char firstName = 'a';
 		
-		System.out.print("¼º : "+firstname);
-		System.out.println(", ÀÌ¸§ :  "+firstName); 
-		//µ¿ÀÏ ÇÑ º¯¼öÀÌ¸§Àº »ç¿ëºÒ°¡ ´Ü, ´ë¼Ò¹®ÀÚ ±¸ºÐÇÏ¿© ±âÀç½Ã »ç¿ë °¡´É
-		//¿¹¾à¾î´Â º¯¼ö¼±¾ðÀ¸·Î »ç¿ëºÒ°¡´É (ex. class ,public µî°ú °°ÀÌ ÀÚ¹Ù¿¡¼­ »ç¿ëÁßÀÎ ¾ð¾î)
+		System.out.print("ï¿½ï¿½ : "+firstname);
+		System.out.println(", ï¿½Ì¸ï¿½ :  "+firstName); 
+		//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ì¸ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ò°ï¿½ ï¿½ï¿½, ï¿½ï¿½Ò¹ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï¿ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+		//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ò°ï¿½ï¿½ï¿½ (ex. class ,public ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ú¹Ù¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½)
 		
 		
-		int literal1 = 75; //10Áø¼ö
-		int literal2 = 075; //8Áø¼ö
-		int literal3 = 0x0011; //2Áø¼ö
-		int literal4 = 0xA; //16Áø¼ö
-				//literal=Á÷Á¢ÀÔ·ÂµÈ °ª
+		int literal1 = 75; //10ï¿½ï¿½ï¿½ï¿½
+		int literal2 = 075; //8ï¿½ï¿½ï¿½ï¿½
+		int literal3 = 0x0011; //2ï¿½ï¿½ï¿½ï¿½
+		int literal4 = 0xA; //16ï¿½ï¿½ï¿½ï¿½
+				//literal=ï¿½ï¿½ï¿½ï¿½ï¿½Ô·Âµï¿½ ï¿½ï¿½
 		
-		System.out.println("10Áø¼ö : "+literal1);
-		System.out.println("8Áø¼ö : "+literal2);
-		System.out.println("2Áø¼ö : "+literal3);
-		System.out.println("16Áø¼ö : "+literal4);
+		System.out.println("10ï¿½ï¿½ï¿½ï¿½ : "+literal1);
+		System.out.println("8ï¿½ï¿½ï¿½ï¿½ : "+literal2);
+		System.out.println("2ï¿½ï¿½ï¿½ï¿½ : "+literal3);
+		System.out.println("16ï¿½ï¿½ï¿½ï¿½ : "+literal4);
 
 		
 	}

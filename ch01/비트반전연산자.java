@@ -1,34 +1,34 @@
 package ch01;
 
-public class ºñÆ®¹İÀü¿¬»êÀÚ {
+public class ë¹„íŠ¸ë°˜ì „ì—°ì‚°ì {
 
 	public static void main(String[] args) {
 		
-		int v1 =10; //int v1¿¡ 10
-		int v2= ~v1; //int v2¿¡ 10 ºñÆ® ¹İÀü
-		int v3 =~v1+1; //int v2°ª¿¡ +1
+		int v1 =10; //int v1ï¿½ï¿½ 10
+		int v2= ~v1; //int v2ï¿½ï¿½ 10 ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½
+		int v3 =~v1+1; //int v2ï¿½ï¿½ï¿½ï¿½ +1
 		
-		System.out.println(toBinaryString(v1)+"(½ÊÁø¼ö : "+v1+")");
-		System.out.println(toBinaryString(v2)+"(½ÊÁø¼ö : "+v2+")");
-		System.out.println(toBinaryString(v3)+"(½ÊÁø¼ö : "+v3+")");
+		System.out.println(toBinaryString(v1)+"(ì‹­ì§„ìˆ˜ : "+v1+")");
+		System.out.println(toBinaryString(v2)+"(ì‹­ì§„ìˆ˜ : "+v2+")");
+		System.out.println(toBinaryString(v3)+"(ì‹­ì§„ìˆ˜ : "+v3+")");
 		
 		int v4=-10;
 		int v5=~v4;
 		int v6=~v4+1;
 		
-		System.out.println(toBinaryString(v4)+"(½ÊÁø¼ö : "+v4+")");
-		System.out.println(toBinaryString(v4)+"(½ÊÁø¼ö : "+v5+")");
-		System.out.println(toBinaryString(v4)+"(½ÊÁø¼ö : "+v6+")");
+		System.out.println(toBinaryString(v4)+"(ì‹­ì§„ìˆ˜ : "+v4+")");
+		System.out.println(toBinaryString(v4)+"(ì‹­ì§„ìˆ˜ : "+v5+")");
+		System.out.println(toBinaryString(v4)+"(ì‹­ì§„ìˆ˜ : "+v6+")");
 		
 	}
 
 	private static String toBinaryString(int value) {
-		//9¹øÁÙ¿¡ ÀÖ´Â v1°ªÀ» ÀÔ·Â¹Ş¾Æ 2Áø 32°³ÀÇ ¼ıÀÚ·Î Ãâ·ÂÇÏ±â À§ÇÑ ¸Ş¼Òµå
-		String str = Integer.toBinaryString(value); //Á¤¼ö¸¦ 2ÁøÀ¸·Î ¹İÈ¯ ¸Ş¼Òµå
-		while (str.length()<32) { //str¿¡ ±ÛÀÚ ±æÀÌ°¡ 32ÀÌÇÏ ÀÎÁö¸¦ ¹İº¹
-			str = "0" + str; //32±ÛÀÚ ÀÌÇÏÀÏ¶§ ±ÛÀÚ¾Õ¿¡ 0À» ºÙÈû
+		//9ï¿½ï¿½ï¿½Ù¿ï¿½ ï¿½Ö´ï¿½ v1ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·Â¹Ş¾ï¿½ 2ï¿½ï¿½ 32ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ú·ï¿½ ï¿½ï¿½ï¿½ï¿½Ï±ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ş¼Òµï¿½
+		String str = Integer.toBinaryString(value); //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 2ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È¯ ï¿½Ş¼Òµï¿½
+		while (str.length()<32) { //strï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ì°ï¿½ 32ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½İºï¿½
+			str = "0" + str; //32ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï¶ï¿½ ï¿½ï¿½ï¿½Ú¾Õ¿ï¿½ 0ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 		}
-		return str; //°á°ú°ª ¹İÈ¯
+		return str; //ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È¯
 	}
 
 	
