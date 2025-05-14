@@ -4,15 +4,15 @@ public class PromotionExam {
 
 	public static void main(String[] args) {
 		byte byteValue =10;
-		int intValue = byteValue; //ï¿½Úµï¿½Å¸ï¿½Ôºï¿½È¯
+		int intValue = byteValue; //ÀÚµ¿Å¸ÀÔº¯È¯
 		
-		System.out.println(intValue); //10ï¿½ï¿½ ï¿½ï¿½ï¿½
-		//byte byteValue = intValue ; Å«Å¸ï¿½Ô¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Å¸ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
+		System.out.println(intValue); //10ÀÌ Ãâ·Â
+		//byte byteValue = intValue ; Å«Å¸ÀÔ¿¡¼­ ÀÛÀºÅ¸ÀÔÀº ¿À·ù.
 
-		char charValue = 'k';
+		char charValue = '°¡';
 		int intValue1 = charValue;
 		
-		System.out.println("Hello: "+intValue1); //charÅ¸ï¿½ï¿½ï¿½ï¿½ intÅ¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Ä¡È¯
+		System.out.println("°¡ÀÇ À¯´ÏÄÚµå °ª: "+intValue1); //charÅ¸ÀÔÀ» intÅ¸ÀÔÀ¸·Î Ä¡È¯
 		
 		intValue = 500;
 		long longValue = intValue;
