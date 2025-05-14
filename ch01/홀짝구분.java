@@ -2,16 +2,16 @@ package ch01;
 
 import java.util.Scanner;
 
-public class È¦Â¦±¸ºĞ {
+public class í™€ì§êµ¬ë¶„ {
 
 	public static void main(String[] args) {
 		
 		Scanner res = new Scanner(System.in);
 		
-		System.out.print("¼ıÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä: ");
+		System.out.print("ìˆ«ìë¥¼ ì…ë ¥í•˜ì„¸ìš”:  ");
 		
 		int num=res.nextInt();
-		System.out.println(num%2==0? "Â¦¼öÀÔ´Ï´Ù":"È¦¼öÀÔ´Ï´Ù");
+		System.out.println(num%2==0? "ì§ìˆ˜":"í™€ìˆ˜");
 		
 
 	}

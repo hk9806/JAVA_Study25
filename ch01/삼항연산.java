@@ -1,16 +1,16 @@
 package ch01;
 
-public class »ïÇ×¿¬»ê {
+public class ì‚¼í•­ì—°ì‚° {
 
 	public static void main(String[] args) {
 		int sco = 91;
 		char gra = (sco >= 90) ? 'A' : ((sco >= 80) ? 'B' : 'C');
-		System.out.println(sco + "Á¡Àº " + gra + " µî±ÞÀÔ´Ï´Ù");
+		System.out.println(sco + "ï¿½ï¿½ï¿½ï¿½ " + gra + " ï¿½ï¿½ï¿½ï¿½Ô´Ï´ï¿½");
 		
 		
 		int point = 180;
 		char po = (point >=150)?'A':((point>=100)?'B':'C');
-		System.out.println(point+"Á¡Àº"+po+"µî±ÞÀÔ´Ï´Ù");
+		System.out.println(point+"ï¿½ï¿½ï¿½ï¿½"+po+"ï¿½ï¿½ï¿½ï¿½Ô´Ï´ï¿½");
 	}
 
 }

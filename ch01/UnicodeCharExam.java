@@ -46,7 +46,7 @@ public class UnicodeCharExam {
 		System.out.print(c3);
 		System.out.println(c4);
 		
-		char han1 = '°¡';
+		char han1 = 'k';
 		char han2 = 44032;
 		char han3 = '\uac00';
 		
@@ -55,9 +55,9 @@ public class UnicodeCharExam {
 		System.out.println(han3);
 		
 		
-		int unicode1 = 'È«'; //ÇÑ±ÛÀ» À¯´ÏÄÚµå·Î Ä¡È¯
-		int unicode2 ='°æ';
-		int unicode3 ='ÈÆ';
+		int unicode1 = 'È«'; //ï¿½Ñ±ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Úµï¿½ï¿½ Ä¡È¯
+		int unicode2 ='k';
+		int unicode3 ='m';
 		
 		System.out.println(unicode1);
 		System.out.println(unicode2);

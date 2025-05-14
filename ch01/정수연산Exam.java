@@ -1,6 +1,6 @@
 package ch01;
 
-public class Á¤¼ö¿¬»êExam {
+public class ì •ìˆ˜ì—°ì‚°Exam {
 
 	public static void main(String[] args) {
 
@@ -14,8 +14,8 @@ public class Á¤¼ö¿¬»êExam {
 		char charValue2 = 1;
 		
 		int intValue2 = charValue1+charValue2;
-		System.out.println("À¯´ÏÄÚµå="+intValue2);
-		System.out.println("Ãâ·Â¹®ÀÚ="+(char)intValue2);
+		System.out.println("ìœ ë‹ˆì½”ë“œ="+intValue2);
+		System.out.println("ì¶œë ¥ë¬¸ì="+(char)intValue2);
 		
 		int intValues=10;
 		double doubleValue=intValues / 4.0;

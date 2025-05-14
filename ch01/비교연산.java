@@ -1,6 +1,6 @@
 package ch01;
 
-public class ºñ±³¿¬»ê {
+public class ë¹„êµì—°ì‚° {
 
 	public static void main(String[] args) {
 	int num =10;

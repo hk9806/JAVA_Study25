@@ -1,6 +1,6 @@
 package ch01;
 
-public class ÀÌÇ×¿¬»êExam {
+public class ì´í•­ì—°ì‚°Exam {
 
 	public static void main(String[] args) {
 		
