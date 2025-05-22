@@ -94,7 +94,7 @@ public class CalcuratorExam0514 {
 				case 3:
 					x1 = x4;
 					x2 = 0;
-					x3 = 3;
+					x3 = 0;
 					run2 = false;
 					break;
 				case 1:
