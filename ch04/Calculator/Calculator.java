@@ -1,4 +1,4 @@
-package ch04;
+package ch04.Calculator;
 
 public class Calculator {// 계산기 프로그램
 	// 메소드
